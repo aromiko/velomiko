@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gear",
+  description: "This is the gear that VeloMiko uses.",
+};
+
 const Gear = () => {
   return (
     <main className="flex-grow">
